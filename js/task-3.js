@@ -5,6 +5,7 @@ const profile = {
       this.username = newName;
     },
 }
+
   console.log(profile.getInfo()); 
   
   profile.changeUsername("Marco");
