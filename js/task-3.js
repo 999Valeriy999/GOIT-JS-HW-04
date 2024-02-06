@@ -6,7 +6,7 @@ const profile = {
     },
     updatePlayTime: function (hours) {
 
-  };
+  }
 }
   console.log(profile.getInfo()); 
   
