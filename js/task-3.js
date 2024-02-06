@@ -4,9 +4,6 @@ const profile = {
     changeUsername: function (newName) {
       this.username = newName;
     },
-    updatePlayTime: function (hours) {
-
-  }
 }
   console.log(profile.getInfo()); 
   
