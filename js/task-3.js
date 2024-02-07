@@ -9,7 +9,7 @@ const profile = {
     },
     getInfo: function () {
         return `${this.username} has ${this.playTime} active hours!`;
-    },
+    }
 };
     
     profile.changeUsername("Marco");
