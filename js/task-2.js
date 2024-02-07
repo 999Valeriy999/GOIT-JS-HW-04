@@ -1,13 +1,7 @@
 function calcAverageCalories(days) {
-  let sum = 0; /* створюю змінну в яку накопичуємо суму калорій */
-  for (const day of days) {
-  sum += day.calories;
   if (days.length === 0) {
-    return 0;
-} else {
-    return day.calories / days.length
+    return 0} 
 }
-}}
 
 console.log(
     calcAverageCalories([
